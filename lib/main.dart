@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:secbjp9/views/custom_column_view.dart';
+import 'package:secbjp9/views/dashboard_view.dart';
 import 'package:secbjp9/views/home_view.dart';
+import 'package:secbjp9/views/login_view.dart';
+import 'package:secbjp9/views/splash_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,6 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: HomeView());
+    return MaterialApp(home: SplashView());
   }
 }
